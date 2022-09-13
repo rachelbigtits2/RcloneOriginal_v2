@@ -1,0 +1,45 @@
+{
+  "name": "Rclone-Tg-Bot",
+  "description": "An rclone telegram bot to mirror-leech and transfer to many cloud servers",
+  "keywords": [
+    "telegram"
+  ],
+  "repository": "https://github.com/Sam-Max/Rclone-Tg-Bot",
+  "success_url": "https://github.com/Sam-Max/Rclone-Tg-Bot",
+  "website": "https://github.com/Sam-Max/Rclone-Tg-Bot",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "get this value from @BotFather",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "should be an integer. ID of owner of bot",
+      "value": ""
+    },
+    "ALLOWED_USERS": {
+      "description": "list of IDs of allowed users who can use this bot separated by spaces",
+      "value": ""
+    },
+    "ALLOWED_CHATS": {
+      "description": "list of IDs of allowed chats who can use this bot separated by spaces",
+      "value": ""
+    },
+    "RCLONE_CONFIG": {
+      "description": "content of the rclone.conf file generated with rclone command-line program.",
+      "value": ""
+    }
+  },
+  "stack": "container"
+}
